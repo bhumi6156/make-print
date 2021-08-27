@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/make-print' exact component={Home} />
           <Route path='/hiw' exact component={HIW} />
         </Switch>
       </Router>
